@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .mobile-nav-toggle {
-  color: #222222;
+  color: #CE0033;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -349,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #106eea;
+  color: #CE0033;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -856,41 +856,7 @@ svg{
 .services .icon-box:hover .icon {
   border-color: #106eea;
 }
- input{
-      background:#CE0033;
-      display:block;
-      border-radius:20px;
-      margin:10px;
-      color:white;
-      position:relative;
-      bottom:70vh;
-      border:3px solid #CE0033;
-     }
-     #one{
-      width:20vw;
-     }
-
-     #two{
-      width:15vw;
-     }
-
-     #three{
-      width:10vw;
-      
-     }
-
-     #one:hover{
-      width:25vw;
-      height:8vh;
-     }
-     #two:hover{
-      width:20vw;
-      height:8vh;
-     }
-     #three:hover{
-      width:15vw;
-      height:8vh;
-     }
+ 
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
