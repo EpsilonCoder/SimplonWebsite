@@ -381,6 +381,33 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 
+.about-col {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  position: relative;
+  left:30vw;
+  bottom:120vh;
+}
+
+.about-col h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+  margin: 40px 0 12px 0;
+}
+.about-col h2 {
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0;
+  margin: 40px 0 12px 0;
+}
+
 
 #hero {
   width: 100%;
@@ -613,7 +640,6 @@ svg{
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services .icon-box {
-  padding: 30px;
   position: relative;
   overflow: hidden;
   background: #fff;
@@ -621,6 +647,7 @@ svg{
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
+  height:400px;
 }
 .featured-services .icon-box::before {
   content: "";
@@ -634,7 +661,7 @@ svg{
   z-index: -1;
 }
 .featured-services .icon-box:hover::before {
-  background: red;
+  background:grey;
   top: 0;
   border-radius: 0px;
 }
