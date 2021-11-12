@@ -1460,6 +1460,18 @@ border-radius:30px;
   border-radius:20px;
 }
 
+
+#rouge1{
+ width:32vw;
+ height:65vh;
+ background-color:#CE0033;
+border-radius:30px;
+}
+#rouge1 img{
+  position:relative;
+  top:2vh;
+  border-radius:20px;
+}
 @media (max-width: 768px) {
   #footer .copyright, #footer .credits {
     float: none;
