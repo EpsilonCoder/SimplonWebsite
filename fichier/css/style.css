@@ -64,9 +64,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 #img{
-  border-top:10px solid #CE0033;
-  border-right:10px solid #CE0033;
   border-radius:20px;
+  box-shadow: 10px -7px  #CE0033;
 }
 .back-to-top {
   position: fixed;
